@@ -4,7 +4,7 @@
 #
 Name     : pypi-clikit
 Version  : 0.6.2
-Release  : 3
+Release  : 4
 URL      : https://files.pythonhosted.org/packages/0b/07/27d700f8447c0ca81454a4acdb7eb200229a6d06fe0b1439acc3da49a53f/clikit-0.6.2.tar.gz
 Source0  : https://files.pythonhosted.org/packages/0b/07/27d700f8447c0ca81454a4acdb7eb200229a6d06fe0b1439acc3da49a53f/clikit-0.6.2.tar.gz
 Summary  : CliKit is a group of utilities to build beautiful and testable command line interfaces.
@@ -14,9 +14,6 @@ Requires: pypi-clikit-license = %{version}-%{release}
 Requires: pypi-clikit-python = %{version}-%{release}
 Requires: pypi-clikit-python3 = %{version}-%{release}
 BuildRequires : buildreq-distutils3
-Provides: clikit
-Provides: clikit-python
-Provides: clikit-python3
 BuildRequires : pypi(poetry_core)
 
 %description
@@ -62,7 +59,7 @@ export http_proxy=http://127.0.0.1:9/
 export https_proxy=http://127.0.0.1:9/
 export no_proxy=localhost,127.0.0.1,0.0.0.0
 export LANG=C.UTF-8
-export SOURCE_DATE_EPOCH=1641423551
+export SOURCE_DATE_EPOCH=1649728649
 export GCC_IGNORE_WERROR=1
 export AR=gcc-ar
 export RANLIB=gcc-ranlib
